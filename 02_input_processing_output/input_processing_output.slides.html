@@ -10,7 +10,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>introduction slides</title>
+<title>input_processing_output slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13242,18 +13242,32 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Intro-to-programming-and-Why-Python?">Intro to programming and Why Python?<a class="anchor-link" href="#Intro-to-programming-and-Why-Python?">&#182;</a></h1>
+<h1 id="Input,-Processing,-and-Output">Input, Processing, and Output<a class="anchor-link" href="#Input,-Processing,-and-Output">&#182;</a></h1>
 </div>
 </div>
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Code-and-computers">Code and computers<a class="anchor-link" href="#Code-and-computers">&#182;</a></h2><ul>
-<li>Computers understand 1s and 0s (binary), but humans don't</li>
-<li>Translate strings and numbers to binary</li>
-<li>Code is more human readable</li>
-<li>Many different programming languages</li>
+<h2 id="Program-development-cycle">Program development cycle<a class="anchor-link" href="#Program-development-cycle">&#182;</a></h2><ol>
+<li>Design the program</li>
+<li>Write code</li>
+<li>Fix errors that prevent program from being run</li>
+<li>Test the program to see if it satisfies requirements</li>
+<li>Fix logic errors</li>
+<li>Repeat</li>
+</ol>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="How-to-design-a-program">How to design a program<a class="anchor-link" href="#How-to-design-a-program">&#182;</a></h2><ul>
+<li>Understand what the problem is that we are trying to solve (Gathering requirements)</li>
+<li>Figure out what steps must be taken to complete the task (algorithm)</li>
+<li>In larger projects, this may be further broken down into smaller tasks</li>
 </ul>
 
 </div>
@@ -13262,11 +13276,9 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Code-to-Machine-Code">Code to Machine Code<a class="anchor-link" href="#Code-to-Machine-Code">&#182;</a></h2><ul>
-<li>Two ways: Compiler and Interpreter</li>
-<li>Java is compiled</li>
-<li>Python is interpreted</li>
-<li>Both translate code to assembler</li>
+<h2 id="Example:-Creating-a-calculator">Example: Creating a calculator<a class="anchor-link" href="#Example:-Creating-a-calculator">&#182;</a></h2><ul>
+<li>What do we need to implement?</li>
+<li>What do we need to do to implement a function?</li>
 </ul>
 
 </div>
@@ -13275,76 +13287,139 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Yay-Python">Yay Python<a class="anchor-link" href="#Yay-Python">&#182;</a></h2><ul>
-<li>Python is used by many large companies</li>
-<li>Python can be used for many different problems (Machine learning, web services, and IT)</li>
+<h2 id="Displaying-output-with-the-print-function">Displaying output with the print function<a class="anchor-link" href="#Displaying-output-with-the-print-function">&#182;</a></h2><ul>
+<li><code>print('hello world')</code> <em>calls</em> the print <em>function</em> with an <em>argument</em></li>
+<li>The <em>argument</em> <code>'hello world'</code> is a string</li>
+<li>Note that strings can be single or double quoted</li>
+<li>There's also triple quotes for multiline strings</li>
 </ul>
 
 </div>
 </div>
 </div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Blah,-Python">Blah, Python<a class="anchor-link" href="#Blah,-Python">&#182;</a></h2><ul>
-<li>Mobile apps (iOS/Android)</li>
-<li>Need raw speed</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Installing-Python">Installing Python<a class="anchor-link" href="#Installing-Python">&#182;</a></h2><ul>
-<li>Follow the instructions at <a href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a>.</li>
-<li>Use Python 3.7. You probably want the bash installer.</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Using-Python-from-the-command-line">Using Python from the command line<a class="anchor-link" href="#Using-Python-from-the-command-line">&#182;</a></h2><ul>
-<li>Open the command prompt (Windows users may have to use a conda command prompt)</li>
-<li>Type <code>python</code> to start the interpreter</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Play-around!">Play around!<a class="anchor-link" href="#Play-around!">&#182;</a></h2><ul>
-<li>Easter eggs: <code>import __hello__</code>, <code>import this</code>, <code>import antigravity</code></li>
-</ul>
-
-</div>
-</div>
-</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Example program: Displaying the current time</span>
+
+<span class="kn">import</span> <span class="nn">datetime</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The time is:&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">())</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">The time is:</span>
+<span class="s2">{datetime.datetime.now()}</span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The time is:
+2019-08-27 08:51:06.131789
+
+The time is:
+2019-08-27 08:51:06.132162
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-print-function">The print function<a class="anchor-link" href="#The-print-function">&#182;</a></h2><ul>
-<li><code>print('string')</code> prints out the string to the screen.</li>
-<li>The quotes are important. You may either use single or double quotes.</li>
+<h2 id="Exercise">Exercise<a class="anchor-link" href="#Exercise">&#182;</a></h2><p>Write a program that displays your name and (bogus) address and phone number.</p>
+<p>For example:</p>
+
+<pre><code>George Lee
+1680 East-West Drive
+Honolulu, HI 96822
+808-555-1234</code></pre>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Variables">Variables<a class="anchor-link" href="#Variables">&#182;</a></h2><ul>
+<li>We <em>assign</em> values to a name using an <em>assignment statement</em></li>
+<li>This makes the value reusable</li>
+<li>We can assign almost any piece of data to a variable</li>
+<li>General format is <code>variable_name = expression</code></li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Basic assignment</span>
+
+<span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;incorrect&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;age&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;correct&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>incorrect
+age
+correct
+25
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Variable-assignment-rules">Variable assignment rules<a class="anchor-link" href="#Variable-assignment-rules">&#182;</a></h2><ul>
+<li>The variable is on the left (try doing <code>25 = age</code>)</li>
+<li>Variable name must be a letter</li>
+<li>Variable name cannot contain spaces (we typically use underscores instead)</li>
+<li>Uppercase characters and lowercase are distinct (loWer is different from lower)</li>
+<li>Variable must exist before usage (try doing <code>foo + 1</code>)</li>
 </ul>
 
 </div>
@@ -13353,13 +13428,230 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Writing-code-in-a-file">Writing code in a file<a class="anchor-link" href="#Writing-code-in-a-file">&#182;</a></h2><ul>
-<li>Download Visual Studio Code <a href="https://code.visualstudio.com">https://code.visualstudio.com</a></li>
-<li>Do not use a word processor like Microsoft Word!</li>
+<h2 id="Primitive-data-types">Primitive data types<a class="anchor-link" href="#Primitive-data-types">&#182;</a></h2><ul>
+<li>We already know strings</li>
+<li>There are also integers (among other things)</li>
+<li>The <code>type()</code> function</li>
 </ul>
 
 </div>
 </div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">string</span> <span class="o">=</span> <span class="s1">&#39;test&#39;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Strings are of type {type(string)}&quot;</span><span class="p">)</span>
+
+<span class="n">num</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;Integers are of type {type(num)}&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Strings are of type &lt;class &#39;str&#39;&gt;
+Integers are of type &lt;class &#39;int&#39;&gt;
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Variables can also be reassigned</span>
+
+<span class="n">age</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+
+<span class="n">age</span> <span class="o">=</span> <span class="mi">26</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+
+<span class="n">older_age</span> <span class="o">=</span> <span class="mi">27</span>
+<span class="n">age</span> <span class="o">=</span> <span class="n">older_age</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">age</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>25
+26
+27
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="The-input()-function">The input() function<a class="anchor-link" href="#The-input()-function">&#182;</a></h2><ul>
+<li>input() lets you get input from the user</li>
+<li>Assign this input to a variable so you can use it</li>
+<li>The function takes one <em>argument</em> which is the prompt to the user.</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Input example</span>
+
+<span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter your name: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hello George
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="More-about-the-input()-function">More about the input() function<a class="anchor-link" href="#More-about-the-input()-function">&#182;</a></h2><ul>
+<li>The input from the user is a <code>string</code></li>
+<li>You may need to convert it to a number</li>
+<li>Use <code>int(item)</code> to convert a string to an integer</li>
+<li>use <code>float(item)</code> to convert a string to a floating point number (decimal)</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Inputting numbers</span>
+
+<span class="n">number_string</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter a number: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The type of number_string is&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">number_string</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The type of int(number_string) is&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">number_string</span><span class="p">)))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Adding 1 to the number =&#39;</span><span class="p">,</span> <span class="nb">int</span><span class="p">(</span><span class="n">number_string</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">another_number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter another number: &#39;</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The type is&#39;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">another_number</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Adding 1 to this number =&#39;</span><span class="p">,</span> <span class="n">another_number</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The type of number_string is &lt;class &#39;str&#39;&gt;
+The type of int(number_string) is &lt;class &#39;int&#39;&gt;
+Adding 1 to the number = 2
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>The type is &lt;class &#39;int&#39;&gt;
+Adding 1 to this number = 3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
